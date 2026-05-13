@@ -1,141 +1,163 @@
-📱 TapGame (libGDX Reaction Game)
-🇬🇧 English Version
-🎮 Description
+# 📱 TapGame (libGDX Reaction Game)
 
+---
+
+## 🇬🇧 English
+
+### 🎮 Description
 TapGame is a simple but fast-paced reaction game developed using libGDX in Java.
+
 The player must tap circles that appear randomly on the screen before they disappear.
 
 The game becomes progressively harder over time, introducing obstacles and power-ups.
 
 This project was developed as part of a university course on mobile application development.
 
-🚀 Features
-Random circle spawning system
-Increasing difficulty over time
-Score system (+1 per correct tap)
-Timer (survival time)
-Obstacles (cause game over if tapped)
-Power-ups (temporary invulnerability)
-Ripple animation effect on tap
-Sound effects (tap feedback)
-Multiple screens:
-Main Menu
-Game Screen
-Game Over Screen
-Data persistence (best score and time saved locally)
-🧠 What We Learned
-How to use libGDX framework for cross-platform game development
-Game architecture using Game + Screen system
-Real-time game loop using render() and delta time
-Handling input (touch & mouse)
-Object management using arrays
-Collision detection (distance-based)
-Rendering with:
-ShapeRenderer (for circles)
-SpriteBatch (for UI)
-Animation systems (ripple effects, color transitions)
-Difficulty scaling over time
-Saving data using Preferences
-Managing game states and screen transitions
-🧱 Project Structure
-TapGame.java → Main game controller
-MainMenuScreen.java → Start screen
-GameScreen.java → Core gameplay logic
-GameOverScreen.java → End screen + stats
-Circle.java → Game entity (normal, obstacle, power-up)
-Lwjgl3Launcher.java → Desktop launcher
-⚙️ Technologies Used
-Java
-libGDX
-OpenGL (via libGDX)
-Gradle
-📚 Academic Context
+---
 
-This project follows Option C (libGDX game) requirements:
+### 🚀 Features
+- Random circle spawning system  
+- Increasing difficulty over time  
+- Score system (+1 per correct tap)  
+- Timer (survival time)  
+- Obstacles (cause game over if tapped)  
+- Power-ups (temporary invulnerability)  
+- Ripple animation effect  
+- Sound effects  
+- Multiple screens:
+  - Main Menu  
+  - Game Screen  
+  - Game Over Screen  
+- Data persistence (best score and time saved locally)
 
-Screen-based architecture (Game + Screen)
-Timer and best time tracking
-Obstacle counter and best score saving
-Power-ups with temporary invulnerability
-▶️ How to Run
-Clone the repository
-Open with Android Studio
-Run:
-Desktop version → Lwjgl3Launcher
-Android version → via emulator or device
-🔮 Possible Improvements
-Better UI / graphics (textures instead of shapes)
-Sound/music system expansion
-More power-ups and mechanics
-Pause menu
-Online leaderboard
-🇪🇸 Versión en Español
-🎮 Descripción
+---
 
+### 🧠 What We Learned
+- libGDX framework basics  
+- Game + Screen architecture  
+- Game loop using render() and delta time  
+- Input handling (touch & mouse)  
+- Collision detection (distance-based)  
+- Rendering:
+  - ShapeRenderer (game objects)
+  - SpriteBatch (UI)
+- Animation systems (ripple, color transitions)  
+- Difficulty scaling  
+- Saving data using Preferences  
+- Screen transitions and game states  
+
+---
+
+### 🧱 Project Structure
+- `TapGame.java` → Main game controller  
+- `MainMenuScreen.java` → Start screen  
+- `GameScreen.java` → Core gameplay logic  
+- `GameOverScreen.java` → End screen + stats  
+- `Circle.java` → Game entity  
+- `Lwjgl3Launcher.java` → Desktop launcher  
+
+---
+
+### ⚙️ Technologies Used
+- Java  
+- libGDX  
+- OpenGL  
+- Gradle  
+
+---
+
+### 📚 Academic Context
+This project follows Option C (libGDX game):
+- Game + Screen system  
+- Timer + best time saved  
+- Obstacle counter + best score saved  
+- Power-ups with temporary invulnerability  
+
+---
+
+### ▶️ How to Run
+1. Clone the repository  
+2. Open with Android Studio  
+3. Run:
+   - Desktop → `Lwjgl3Launcher`  
+   - Android → emulator or device  
+
+---
+
+### 🔮 Possible Improvements
+- Better UI (textures instead of shapes)  
+- More sound/music  
+- More power-ups  
+- Pause menu  
+- Online leaderboard  
+
+---
+
+## 🇪🇸 Español
+
+### 🎮 Descripción
 TapGame es un juego de reflejos desarrollado con libGDX en Java.
+
 El jugador debe pulsar círculos que aparecen aleatoriamente antes de que desaparezcan.
 
 La dificultad aumenta progresivamente, añadiendo obstáculos y power-ups.
 
-Este proyecto fue realizado como parte de una asignatura universitaria de desarrollo de aplicaciones móviles.
+Este proyecto fue realizado como parte de una asignatura universitaria.
 
-🚀 Características
-Generación aleatoria de círculos
-Aumento de dificultad con el tiempo
-Sistema de puntuación (+1 por acierto)
-Temporizador (tiempo de supervivencia)
-Obstáculos (provocan game over)
-Power-ups (invulnerabilidad temporal)
-Animación de ondas (ripple) al pulsar
-Efectos de sonido
-Sistema de pantallas:
-Menú principal
-Pantalla de juego
-Pantalla de fin de partida
-Guardado de récords (tiempo y puntuación)
-🧠 Qué hemos aprendido
-Uso del framework libGDX para desarrollo multiplataforma
-Arquitectura basada en Game y Screen
-Bucle de juego con render() y delta time
-Gestión de input (pantalla táctil y ratón)
-Manejo de colecciones de objetos (Array)
-Detección de colisiones (distancia)
-Renderizado con:
-ShapeRenderer (figuras)
-SpriteBatch (texto/UI)
-Animaciones (ondas, cambios de color)
-Escalado de dificultad
-Persistencia de datos (Preferences)
-Gestión de estados del juego
-🧱 Estructura del proyecto
-TapGame.java → Controlador principal
-MainMenuScreen.java → Menú inicial
-GameScreen.java → Lógica principal del juego
-GameOverScreen.java → Resultados
-Circle.java → Entidad del juego
-Lwjgl3Launcher.java → Lanzador de escritorio
-⚙️ Tecnologías utilizadas
-Java
-libGDX
-OpenGL
-Gradle
-📚 Contexto académico
+---
 
-El proyecto cumple con la Opción C (libGDX):
+### 🚀 Características
+- Generación aleatoria de círculos  
+- Aumento de dificultad  
+- Sistema de puntuación  
+- Temporizador  
+- Obstáculos (game over)  
+- Power-ups (invulnerabilidad)  
+- Animaciones tipo ripple  
+- Sonido  
+- Sistema de pantallas:
+  - Menú  
+  - Juego  
+  - Game Over  
+- Guardado de récords  
 
-Sistema de pantallas (Game + Screen)
-Temporizador + mejor tiempo guardado
-Contador de obstáculos + récord
-Power-ups con invulnerabilidad
-▶️ Cómo ejecutar
-Clonar el repositorio
-Abrir en Android Studio
-Ejecutar:
-Desktop → Lwjgl3Launcher
-Android → emulador o dispositivo
-🔮 Mejoras futuras
-Mejor interfaz gráfica (texturas en lugar de shapes)
-Música y más sonidos
-Más tipos de power-ups
-Menú de pausa
-Ranking online
+---
+
+### 🧠 Qué hemos aprendido
+- Uso de libGDX  
+- Arquitectura Game + Screen  
+- Bucle de juego (render + delta)  
+- Gestión de input  
+- Detección de colisiones  
+- Renderizado (ShapeRenderer y SpriteBatch)  
+- Animaciones  
+- Escalado de dificultad  
+- Persistencia con Preferences  
+
+---
+
+### 🧱 Estructura
+- `TapGame.java` → Control principal  
+- `MainMenuScreen.java` → Menú  
+- `GameScreen.java` → Juego  
+- `GameOverScreen.java` → Resultados  
+- `Circle.java` → Entidad  
+- `Lwjgl3Launcher.java` → Launcher  
+
+---
+
+### ▶️ Ejecución
+1. Clonar repositorio  
+2. Abrir en Android Studio  
+3. Ejecutar:
+   - Desktop → `Lwjgl3Launcher`  
+   - Android → emulador o móvil  
+
+---
+
+### 🔮 Mejoras futuras
+- Mejor interfaz gráfica  
+- Más sonidos  
+- Más power-ups  
+- Menú de pausa  
+- Ranking online  
